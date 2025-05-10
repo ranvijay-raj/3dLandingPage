@@ -8,7 +8,7 @@ import { RGBShiftShader } from 'three/examples/jsm/shaders/RGBShiftShader.js';
 import gsap from "gsap"
 import FeatherScroll from 'scrollfeather';
 
-const scroll = new FeatherScroll();
+//const scroll = new FeatherScroll();
 let scene = new THREE.Scene()
 let camera = new THREE.PerspectiveCamera(40, window.innerWidth/window.innerHeight, 0.1, 1000)
 
